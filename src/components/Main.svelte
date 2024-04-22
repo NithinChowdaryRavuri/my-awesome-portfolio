@@ -48,11 +48,11 @@
         <div
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
-            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
+            <h1 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Nithin Chowdary</span> Ravuri
                 <br />Full Stack
                 <span class="poppins text-violet-400">Developer</span>
-            </h2>
+            </h1>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes JavaScript
                 (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
