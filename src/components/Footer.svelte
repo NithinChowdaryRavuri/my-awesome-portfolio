@@ -4,45 +4,30 @@
     <p class="px-4 py-2 bg-white text-slate-950 font-medium">
         Connect with me &darr;
     </p>
-    <div class="flex flex-col gap-4 items-center justify-center">
+    <div class="flex gap-4 items-center justify-center">
         <p>
-            <b class="pr-2">Email</b>
-            <a href="mailto:ravurinithinchowdary@gmail.com" target="_blank" class="text-violet-400"
-                >NithinChowdaryRavuri<sup class=""
-                    ><span class="text-xs scale-75 pl-0.5"
-                        ><i
-                            class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-                        /></span
-                    ></sup
-                ></a
-            >
+            <a class="bg-white border-white text-slate-950 rounded-lg btnBorder relative grid place-items-center 
+            px-2 py-1 sm:px-2 py-2 hover:text-white hover:bg-violet-600 hover:duration-200"
+                target="_blank" href="mailto:ravurinithinchowdary@gmail.com">
+                <i class="text-3xl fa-solid fa-envelope"></i>
+            </a>
         </p>
         <p>
-            <b class="pr-2">GitHub</b>
-            <a href="https://github.com/NithinChowdaryRavuri" target="_blank" class="text-violet-400"
-                >NithinChowdaryRavuri<sup class=""
-                    ><span class="text-xs scale-75 pl-0.5"
-                        ><i
-                            class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-                        /></span
-                    ></sup
-                ></a
-            >
+            <a class="bg-white border-white text-slate-950 rounded-lg btnBorder relative grid place-items-center 
+            px-2 py-1 sm:px-2 py-2 hover:text-white hover:bg-violet-600 hover:duration-200" 
+            target="_blank" href="https://github.com/NithinChowdaryRavuri">
+                <i class="text-3xl fa-brands fa-github"></i>
+            </a>
         </p>
         <p>
-            <b class="pr-2">LinkedIn</b>
-            <a href="https://www.linkedin.com/in/nithinchowdaryravuri/" target="_blank" class="text-violet-400"
-                >NithinChowdaryRavuri<sup class=""
-                    ><span class="text-xs scale-75 pl-0.5"
-                        ><i
-                            class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
-                        /></span
-                    ></sup
-                ></a
-            >
-        </p>
-        <p>
-            &copy; 2024 NithinChowdaryRavuri 💛
+            <a class="bg-white border-white text-slate-950 rounded-lg btnBorder relative grid place-items-center 
+            px-2 py-1 sm:px-2 py-2 hover:text-white hover:bg-violet-600 hover:duration-200"
+            target="_blank" href="https://www.linkedin.com/in/nithinchowdaryravuri/">
+                <i class="text-3xl fa-brands fa-linkedin"></i>
+            </a>
         </p>
     </div>
+    <p>
+        &copy; 2024 NithinChowdaryRavuri 💛
+    </p>
 </footer>
