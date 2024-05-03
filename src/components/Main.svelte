@@ -13,9 +13,9 @@
             href: "https://github.com/NithinChowdaryRavuri/facial_expression_recognition",
             },
         {
-            name: "NASA Apod",
-            icon: "fa-solid fa-rocket",
-            href: "https://nithin-nasa-apod.netlify.app/",
+            name: "Pokedex",
+            icon: "fa-solid fa-mobile-screen",
+            href: "https://nithin-pokedex.netlify.app/",
             },
         
     ];
@@ -23,14 +23,14 @@
     let benefits = [
         {
             metric: "10x",
-            name: "a self taught developer",
+            name: "a passion driven developer",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML, CSS, Python & Java, and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+            "Embarking from an Electronics background, I discovered my true passion lies in coding and product development. This led me to self-learn programming and subsequently earn a Master's in Computer Science. My skills, ranging from JavaScript frameworks to Python & Java, are showcased in my GitHub portfolio, reflecting a journey of continuous learning and a dedication to crafting innovative digital experiences.",
         },
         {
             name: "data structures & algorithms finatic",
             description:
-            "Diligently solving over 400 problems on LeetCode has allowed me to hone my data structure and algorithms skills. Started solving daily problem, and I post all my LeetCode solutions on my GitHub repository.",
+            "Through the digital terrain of LeetCode, I've battled over 400 problems, each one a step towards mastery in data structures and algorithms. My daily conquests are not just for personal glory—they're shared with the world in my GitHub repository, a showcase of persistence and skill in code.",
         },
         {
             name: "an excellent communicator",
@@ -106,16 +106,24 @@
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    Facial Expression Recognition is a deep learning model built with <strong
-                        class="text-violet-400">CNN</strong
-                    >,
-                    <strong class="text-violet-400">OpenCV</strong
-                    >
-                    . This app can detect facial expressions in real-time with 
-                    pre-trained model.
+                    Facial Expression Recognition is an innovative deep learning application powered by 
+                    <strong class="text-violet-400">CNN</strong> and 
+                    <strong class="text-violet-400">OpenCV</strong>. 
+                    It boasts the ability to interpret facial expressions in real-time, utilizing a 
+                    pre-trained model to bring a new level of interactivity to user experiences.
+
                 </p>
             </Step>
             <Step step={steps[2]}>               
+                <p>
+                    The Pokedex is a web application crafted with <strong class="text-violet-400">ReactJS</strong> 
+                    and styled using <strong class="text-violet-400">TailwindCSS</strong>, proudly hosted on 
+                    <strong class="text-violet-400">Netlify</strong>. It taps into the 
+                    vast <strong class="text-violet-400">Poke API</strong> to showcase an extensive collection of Pokémon. 
+                    Each Pokémon beckons with a click, revealing a world of details for enthusiasts and trainers alike.
+                </p>
+            </Step>
+            <!-- <Step step={steps[2]}>               
                 <p>
                     The NASA APOD is a  <strong
                         class="text-violet-400"
@@ -126,7 +134,7 @@
                     Astronomy Picture of the Day. It's a great way to learn about
                     the cosmos and the universe we live in.
                 </p>
-            </Step>
+            </Step> -->
         </div>
     </section>
     <section
